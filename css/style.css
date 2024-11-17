@@ -1,0 +1,241 @@
+*{
+    margin:0;
+}
+
+body{background-color:rgb(245, 245, 245);}
+
+#menu  {
+    border:5px solid black;
+    background-color: black;
+    padding:10px 50px 10px 20px;
+      
+}
+#menu #cont-titulo {
+    width: 20%;
+}
+#menu #cont-titulo h1{
+    font-family:serif;
+    color:beige;
+    font-size: 40px;
+    text-align: right;
+}
+
+    #menu #cont-titulo h1 span{
+        color:yellow;
+        font-size: 45px;
+    }
+
+   #menu #cont-titulo p{
+        font-family:'Times New Roman', Times, serif;
+        color:beige;
+        text-align: right;
+    }
+
+
+
+nav{
+    width: 100%;
+     background-color: black;
+    height: 70px;
+}
+nav ul{
+    
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav ul li{ 
+    float: right;
+    list-style: none;
+    margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    
+     
+font-size: 20px;
+font-weight: 500;
+padding: 0.5em 1.2em;
+background: black;
+border-color: #318aac; 
+    
+    
+}
+nav ul li:hover{
+    
+    background: yellow;
+    
+}   
+/* Seccion banner */
+
+#img-banner {
+    background-color: rgb(8, 8, 8);
+    padding: 23px;
+    border-top: 1px solid rgb(43, 43, 43);
+}
+#img-banner img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border:15px solid rgb(179, 179, 179);
+    border-bottom:45px solid rgb(179, 179, 179);
+}
+
+
+/* Contenido */
+.contenido{
+    width:70%;
+    padding: 15px 33px;
+    display: inline-block;
+    /* background-color: white; */
+    /* float: left; */
+    
+}
+.cont_tarjetas{
+    margin-top: 15px;
+    display: inline-block;
+}
+.cont_tarjetas .tarjeta{
+    display: inline-block;
+    width: 27%;
+    padding: 0 23px;
+}
+.cont_tarjetas .tarjeta .cont-img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+.cont_tarjetas .tarjeta  .cont-img img{
+    width: 100%;
+    box-shadow: 0px 0px 0px rgb(255, 255, 255) inset; 
+}
+
+.cont_tarjetas .tarjeta .cont-txt{
+    padding: 15px;
+    padding-top: 33px;
+}
+.cont_tarjetas .tarjeta .cont-txt p{
+    color: grey;
+    text-align: justify;
+}
+.cont_tarjetas .tarjeta .cont-txt p span{
+    color: brown;
+    font-weight: 800;
+}
+
+/* aside */
+aside{
+    padding: 15px 15pxpx;
+    width: 24%;
+    /* float: right; */
+    display: inline-block;  
+}
+
+.sponsors_img .imgs1{
+    border: 1px solid gray;
+
+}
+.sponsors_img .imgs1 img{
+    display: block;
+    margin: 0 auto;
+}
+/* .sponsors_img .imgs2{
+
+} */
+
+.sponsors_img .imgs2 img{
+    width: 151px;
+    display: inline-block;
+}
+
+/* Tips */
+.cont-tarjeta-tip{
+    margin-top: 15px;
+}
+.tarjeta-tip{
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px dotted gray;
+}
+
+.tarjeta-tip .cont-img{
+
+    border: 1px solid grey;
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    /* float: left; */
+}
+.tarjeta-tip  .cont-img img{
+    width: 100%;
+}
+.tarjeta-tip .cont-txt{
+    padding-left: 23px;
+    width: 70%;
+    vertical-align:top;
+    display: inline-block;
+    /* float: right; */
+}
+.tarjeta-tip .cont-txt h3{
+    margin-bottom: 23px;
+}
+.tarjeta-tip .cont-txt p{
+    color: gray;
+}
+.tarjeta-tip .cont-txt a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: brown;
+    font-weight: 800;
+    margin: 19px 0;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 23px;
+}
+
+.footer-div{
+    display: inline-block;
+    vertical-align:top;
+    padding-right: 30px;
+
+}
+.footer-div h3{
+    width: 100%;
+    border-bottom:2px grey;
+    padding-bottom: 15px;
+    margin-bottom: 23px;
+}
+
+ .parte1{
+    width: 40%;
+}
+.parte1 img{
+    display: inline-block;
+}
+.parte1 p{
+    width: 60%;
+    vertical-align:top;
+    display: inline-block;
+    text-align: justify;
+}
+ .parte2{
+    width: 26%;
+}
+.parte2 img{
+    display: inline-block;
+    width: 30%;
+}
+ .parte3{
+    width: 26%;
+}
